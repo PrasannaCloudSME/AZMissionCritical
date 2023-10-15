@@ -12,7 +12,7 @@ variable "prefix" {
 variable "stamps" {
   description = "List of Azure regions into which stamps are deployed. Important: The first location in this list will be used as the main location for this deployment."
   type        = list(string)
-default     = ["eastus"]
+
   
 }
 
