@@ -14,8 +14,8 @@ variables:
   value: '["eastus2"]'
 
 # Terraform state variables
-- name:  'myterraformResourceGroup'
-  value: 'myterraformstate-rg'      # <===== CHANGE THIS VALUE IF NEEDED
+- name:  'terraformResourceGroup'
+  value: 'terraformResourceGroup'      # <===== CHANGE THIS VALUE IF NEEDED
 - name:  'terraformStorageAccount'
   value: '$(prefix)tfstatestore'  # Needs to be a globally unique name
 
